@@ -1,0 +1,26 @@
+:root {
+    --pink: #C5614D;
+    --purple: #2E1E50;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+* {
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--purple);
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding: 0 18px;
+    }
+}

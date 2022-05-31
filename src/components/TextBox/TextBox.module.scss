@@ -1,0 +1,50 @@
+.div {
+    max-width: 515px;
+}
+
+.box {
+
+    & > h2 {
+        font-family: Arvo;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    & > p {
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        span {
+            color: var(--pink);
+        }
+    }
+}
+
+.included {
+    margin: 24px 0;
+    color: #F3AC9E;
+}
+
+@media (max-width: 768px) {
+    .box {
+        h2 {
+            font-family: Arvo;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: -0.5px;
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.div {
+    height: 72px;
+    width: 203px;
+    border-radius: 8px;
+    border: 1px solid var(--pink);
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+
+    div {
+        font-family: Roboto;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        align-self: center;
+        color: #F8F8F8;
+        cursor: pointer;
+        font-weight: bold;
+
+        &:hover {
+            color: #F3AC9E;
+        }
+    }
+    
+    span {
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: left;
+        align-self: center;
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .div {
+        height: 46px;
+    }
+}
